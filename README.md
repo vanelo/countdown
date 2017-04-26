@@ -1,11 +1,11 @@
-##Simple countdown
+#Simple countdown
 
 **NOTE:** This is not my original code. 
 
 I found this snippet on a website titled [Dev Ingredients](http://devingredients.com/2011/11/)building-an-extensible-jquery-countdown-plugin-from-scratch
 Dev Ingredients is managed by *Catalin Berta*. 
 
-###How to call function
+##How to call function
 
 `setCountdown(now,endDate)`
 
