@@ -1,0 +1,71 @@
+li{
+	list-style: none;
+}
+.promoTitle{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(45, 50, 76);
+  vertical-align: 25%;
+  margin: 0 15px 0 15px;
+}
+.btn_ir{
+  padding: 4px;
+  font-size: 20px;
+  background: #778E3E;
+  color: #fff;
+  border-radius: 3px;
+  margin: 10px;
+}
+#countdown_promotion{
+  background-image: -webkit-gradient(
+	linear,
+	left top,
+	right top,
+	color-stop(0, #429E8A),
+	color-stop(0.99, #42B0FF)
+  );
+	background-image: -o-linear-gradient(right, #429E8A 0%, #42B0FF 99%);
+	background-image: -moz-linear-gradient(right, #429E8A 0%, #42B0FF 99%);
+	background-image: -webkit-linear-gradient(right, #429E8A 0%, #42B0FF 99%);
+	background-image: -ms-linear-gradient(right, #429E8A 0%, #42B0FF 99%);
+	background-image: linear-gradient(to right, #429E8A 0%, #42B0FF 99%);
+  padding: 5px;
+  position: absolute;
+  top: 0; 
+  right: 10%; 
+  /*border-radius: 5px;*/
+}
+
+#countdown{
+  list-style-type: none;
+  margin-left: 7px auto;
+  position: relative;
+  display: inline-block;
+  
+}
+#countdown li{
+  margin-right: 5px;
+  float: left;
+  padding: 0;
+}
+.timenumbers{
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  width: 43px;
+  font-weight: bold;
+  border-radius: 3px;
+  box-shadow: 2px 2px rgba(102, 98, 98, 0.35);
+  background-color: #2D324C;
+}
+.timedescription{
+  margin: 0;
+  text-align: center;
+  position: relative;
+  color: #2D324C;
+  font-size: 12px;
+  padding: 0;
+
+}
